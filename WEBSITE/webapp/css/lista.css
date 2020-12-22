@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1{
+    padding-top: 20px;
+}
+.referencias{
+    text-align: left;
+    margin-left: 15%;
+}
+
+#tblListaMascotas, #tblListaVentas {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tblListaMascotas td, #tblListaVentas td,
+#tblListaMascotas th, #tblListaVentas th {
+  border: 3px solid rgb(228, 198, 132);
+  padding: 8px;
+}
+
+#tblListaMascotas tr:nth-child(even), #tblListaVentas tr:nth-child(even) {
+  background-color:  rgb(228, 191, 112);
+}
+
+#tblListaMascotas tr:hover, #tblListaVentas tr:hover {
+  background-color: rgb(242, 245, 105);
+  transition: 0.1s all;
+  cursor: pointer;
+}
+
+#tblListaMascotas th, #tblListaVentas th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(245, 204, 92);
+  color: rgb(34, 33, 33);
+}

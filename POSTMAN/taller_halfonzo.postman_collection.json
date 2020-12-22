@@ -1,0 +1,274 @@
+{
+	"id": "692470b8-ff74-dde1-9a85-fa2fdf452fac",
+	"name": "TALLER UCOM-HALFONZO",
+	"description": "",
+	"order": [
+		"93acb2cb-ff98-886c-6839-9dad58557d3e",
+		"f8fe8a5d-2e3e-c174-e000-99bb7f6383c7",
+		"3c957d61-b514-6270-aee3-6a2287d1e426",
+		"3e172032-f407-fc9f-2f35-fee03dbeb7d6",
+		"f296883f-867b-ffa5-de2b-e352c148d933",
+		"66c6d8a5-ffb7-3e77-6a9c-75e16a164a7a",
+		"67e516d5-a207-719e-6ad5-24c6023b38af",
+		"5a941333-f59a-c2a0-a8c5-e8c724b7a2c7"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1605909711593,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "3c957d61-b514-6270-aee3-6a2287d1e426",
+			"headers": "Content-Type: application/javascript\n//id: 3\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/javascript",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "3",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:3005/mascota/test",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "692470b8-ff74-dde1-9a85-fa2fdf452fac",
+			"data": [],
+			"dataMode": "raw",
+			"name": "TEST DE CONECCION",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1608382507050,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "3e172032-f407-fc9f-2f35-fee03dbeb7d6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3005/mascota/eliminar/13/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "692470b8-ff74-dde1-9a85-fa2fdf452fac",
+			"data": null,
+			"dataMode": "params",
+			"name": "BORRAR MASCOTA POR ID",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1608468194830,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5a941333-f59a-c2a0-a8c5-e8c724b7a2c7",
+			"headers": "Content-Type: application/json\n//id: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:3005/mascota/obtener-lista-ventas",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608597607917,
+			"name": "LISTAR VENTAS",
+			"description": "",
+			"collectionId": "692470b8-ff74-dde1-9a85-fa2fdf452fac",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "66c6d8a5-ffb7-3e77-6a9c-75e16a164a7a",
+			"headers": "Content-Type: application/json\n//id: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:3005/mascota/solicitar-servicio/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "692470b8-ff74-dde1-9a85-fa2fdf452fac",
+			"data": [],
+			"dataMode": "raw",
+			"name": "AÑADIR SERVICIO",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1608498604191,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"fecha_servicio\":\"2020-01-01\",\n\"id_cliente\":2,\n\"estado\":\"en_progreso\",\n\"id_tipo_servicio\":2,\n\"id_servicio\":7,\n\"id_mascota\":10\n}"
+		},
+		{
+			"id": "67e516d5-a207-719e-6ad5-24c6023b38af",
+			"headers": "Content-Type: application/json\n//id: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:3005/mascota/insertar-articulo/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608518688944,
+			"name": "INSERTAR ARTICULO",
+			"description": "Insertar Mascota",
+			"collectionId": "692470b8-ff74-dde1-9a85-fa2fdf452fac",
+			"responses": [],
+			"rawModeData": "{\n\"descripcion\":\"Jabon para gato\",\n\"precio_publico\":10000,\n\"precio_mayorista\":8000,\n\"activo\":true\n}"
+		},
+		{
+			"id": "93acb2cb-ff98-886c-6839-9dad58557d3e",
+			"headers": "Content-Type: application/json\n//id: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:3005/mascota/insertar/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608377690872,
+			"name": "INSERTAR MASCOTA",
+			"description": "Insertar Mascota",
+			"collectionId": "692470b8-ff74-dde1-9a85-fa2fdf452fac",
+			"responses": [],
+			"rawModeData": "{\n\"id_mascota\":12,\n\"nombre\":\"peni\",\n\"id_categoria\":2\n}"
+		},
+		{
+			"id": "f296883f-867b-ffa5-de2b-e352c148d933",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3005/mascota/actualizar",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608469820753,
+			"name": "ACTUALIZAR MASCOTA",
+			"description": "",
+			"collectionId": "692470b8-ff74-dde1-9a85-fa2fdf452fac",
+			"responses": [],
+			"rawModeData": "{\n\t\"nombre\":\"bella\",\n\t\"id_categoria\":2,\n\t\"id_mascota\":2\n}"
+		},
+		{
+			"id": "f8fe8a5d-2e3e-c174-e000-99bb7f6383c7",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3005/mascota/obtener-lista/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1608468235454,
+			"name": "LISTAR MASCOTAS",
+			"description": "",
+			"collectionId": "692470b8-ff74-dde1-9a85-fa2fdf452fac",
+			"responses": []
+		}
+	]
+}
